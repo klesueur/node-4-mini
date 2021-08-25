@@ -2,6 +2,8 @@
   "name": "node-3-mini",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3005",
+  "main": "./server/index.js",
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^10.0.0",
